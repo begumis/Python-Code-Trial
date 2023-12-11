@@ -1,0 +1,25 @@
+list = ["Ankara", "İstanbul", "Adana", "Konya"]
+
+list2 = list.copy()
+print(list)
+print(list2)
+print("="*50)
+list.append("İzmir")
+print(list)
+print(list2)
+print("="*50)
+list2.remove("Ankara")
+print(list)
+print(list2)
+print("="*50)
+list2.extend(list)
+print(list)
+print(list2)
+print("="*50)
+list2.sort()
+print(list2)
+print("="*50)
+list3 = [1, 45, 67, 23, 44, 9, 12]
+list3.sort()
+print(list3)
+
